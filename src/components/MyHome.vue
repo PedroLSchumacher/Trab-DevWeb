@@ -1,8 +1,7 @@
 <template>
     <div>
-        <h3>meu Home</h3>
-        bem-vind{{ letraPorSexo }} {{ nome }}<br>
-        sexo {{ sexo }}
+        <h1>Lista de Arrays</h1>
+        <h3>EndPoints Json Placeholder</h3>
     </div>
 </template>
 
@@ -11,16 +10,7 @@
 export default {
     name: 'MyHome',
     props: {
-        nome: {type: String, required: true},
-        sexo: {type: String, default: 'M'}
-    },
-    computed:{
-        letraPorSexo() {
-            if (this.sexo === 'F')
-                return 'a'
-            else
-                return 'o'
-        }
+        nome: {type: String, required: true}
     }
 }
 </script>
