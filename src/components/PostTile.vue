@@ -2,7 +2,8 @@
 <div class="divPost">
     <h2>{{ post.title }}</h2> <br>
     <p>{{ post.body }}</p> <br>
-    por: {{ post.userId }}
+    Number: {{ post.id }} <br>
+    User number: {{ post.userId }}
 </div>
 </template>
 
